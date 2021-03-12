@@ -1,20 +1,7 @@
 [
   {
-    "proxy": "m2test.dev",
-    "rewriteRules": [
-      {
-        "match": ".m2test.dev",
-        "replace": ""
-      }
-    ]
-  },
-  {
-    "proxy": "b2b.m2test.dev",
-    "rewriteRules": [
-      {
-        "match": ".b2b.m2test.dev",
-        "replace": ""
-      }
-    ]
+    "open": "external",
+    "proxy": "https://pernod-ricard-rsrv2.local",
+    "host": "pernod-ricard-rsrv2.local"
   }
 ]
